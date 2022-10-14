@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <string>
 using namespace std;
-int main(int argc, char const *argv[])
-{
-    int n=17;
+int main(){
+    int n;
     string b="";
     float c;
-    
+    cout<<"Introduzca un número";
+    cin>>n;
     if(n>0)    {
         while (n>0)
         {
