@@ -2,7 +2,7 @@
 <br>
 <h2>
 <img src="img/upa.jpeg" align ="left" width="100" height="100" alt="UPA/ISEI" >
-Unidad 1 evidencia de desempeño de trabajos echos en clase.
+Unidad 1 evidencia de desempeño de trabajos hechos en clase.
 </h2>
 <br>
 
@@ -17,7 +17,7 @@ Unidad 1 evidencia de desempeño de trabajos echos en clase.
 5. Edades<br>
 
 ---
-<b>Hola mundo cruel</b>
+<h1><b>1: Hola mundo cruel</b></h1>
 <br>[Este programa imprime un mensaje: "Hola mundo cruel"]
 
 <pre>
@@ -39,7 +39,7 @@ int main()
 ---
 
 <center>
-<b>Par e impares</b><br>
+<h1><b>2: Par e impares</b><br></h1>
 [Este programa imprime un mensaje "Pares e impares"]
 </center>
 <pre>
@@ -62,7 +62,7 @@ int main()
 ---
 
 
-<b>Tipos de datos</b>
+<h1><b>3: Tipos de datos</b></h1>
 <br>Este programa imprime información sobre las variables de c++ 
 <pre>
 #include <iostream>
@@ -93,7 +93,7 @@ int main(int argc, char const *argv[])
 
 --- 
 
-<b>Ciclos</b>
+<h1><b>4: Ciclos</b></h1>
 <br>
 [Uso de ciclos para contar números pares e impares]
 <pre>
@@ -137,7 +137,7 @@ int main()
 
 ---
 <center>
-<b>Edades</b>
+<h1><b>5: Edades</b></h1>
 </center>
 <br>
 Por medio de intervalos el usuario ingresa su edad y se le indica en que etapa está viviendo
