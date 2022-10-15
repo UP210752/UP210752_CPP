@@ -45,9 +45,9 @@ GitHub</a>
 
 **Comandos de GIT**
 <br>
-|Git Status|Git init| Git Commit |  Git add    |
-|---|--------|------------| ------------|
-|Muestra los archivos del repositorio|inicializar el repositorio | Hacer un cambio| Guarda los cambios |
+|Git Status|Git init| Git add |  Git commit    |Git push
+|----------|--------|------------| ------------|------------|
+|Muestra los archivos del repositorio|inicializar el repositorio | Hacer un cambio| Guarda los cambios |Sube los cambios a tu repositorio|
 <H1>Sistemas operativos</H1>
 <img src="img/windows.png" alt="windows" width="170" height="170">
 <img src="img/linux.png" width="170" alt="linux">
