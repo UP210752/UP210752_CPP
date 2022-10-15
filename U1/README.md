@@ -1,7 +1,7 @@
 # UP210752 / Programación / Unidad 1
 <br>
 <h2>
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/U1/img/upa.jpeg" align ="left" width="100" height="100" alt="UPA/ISEI" >
+<img src="img/upa.jpeg" align ="left" width="100" height="100" alt="UPA/ISEI" >
 Unidad 1 evidencia de desempeño de trabajos echos en clase.
 </h2>
 <br>
@@ -56,7 +56,7 @@ int main()
 <center>
 <b>Salida:</b>
 </center>
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/U1/img/par.png" alt="par">
+<img src="img/par.png" alt="par">
 <p align="left">
 
 ---
@@ -89,7 +89,7 @@ int main(int argc, char const *argv[])
 
 <b>Salida:</b>
 
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/U1/img/datos.png" alt="Tipos de Datos">
+<img src="img/datos.png" alt="Tipos de Datos">
 
 --- 
 
@@ -133,7 +133,7 @@ int main()
 <br>
 <b>Salida:</b>
 <br>
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/U1/img/ciclos.png" ALT="Ciclos">
+<img src="img/ciclos.png" ALT="Ciclos">
 
 ---
 <center>
@@ -188,4 +188,13 @@ return 0;
 <center>
 <b>Salida:</b>
 </center>
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/U1/img/edad.png" alt)"Edades">
+<img src="img/edad.png" alt="Edades">
+<br> 
+
+--- 
+
+<img src="img/edad2.png" alt="Edades2">
+
+---
+
+<img src="img/Edad3.png" alt="Edades3">

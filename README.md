@@ -7,7 +7,7 @@
 
 ---
 <p>
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/img/feid.jpeg " align="middle" width="50" height="50" alt="fercho">Mis redes sociales:
+<img src="img/feid.jpeg " align="middle" width="50" height="50" alt="fercho">Mis redes sociales:
 </p>
 <p><a href="https://www.instagram.com/jpabloruizesp/" title="Title">
 Instagram</a>
@@ -49,8 +49,8 @@ GitHub</a>
 |---|--------|------------| ------------|
 |Muestra los archivos del repositorio|inicializar el repositorio | Hacer un cambio| Guarda los cambios |
 <H1>Sistemas operativos</H1>
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/img/windows.png" alt="windows">
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/img/linux.png" width="170" alt="linux">
+<img src="img/windows.png" alt="windows">
+<img src="img/linux.png" width="170" alt="linux">
 
 
 ---
