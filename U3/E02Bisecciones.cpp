@@ -2,26 +2,37 @@
 #include <cmath>
 using namespace std;
 
-int cuadratica(int x1){
-    int x;
-    x=pow(x, 2);
-    return x;
-}
-int ec(float x2){
-    int x = pow(x, 2) - 8 * x + 15;
-    return x;
-    /*
-    Cuando x vale 3 y 5, y va a hacer igual a 0.
-    */
-}
-int nueva(float x3){
-    int x;
-    
-    return x;
+double fnEcuacion1(double x){       // x²-8x+15 
+    return (pow(x, 2) - 8*x+15);
 }
 
 int main(int argc, char const *argv[])
 {
-    
+    double x1 =4.5;
+    double x2 = -10;
+    double xm;
+
+    double Es = 0.000001;          //Error estándar o error absoluto
+    double Er = abs(x2-x1);     //Error relativo 
+
+    int i=1;
+
+    while (Er>Es)
+    {
+        xm=(x1+x2)/2;
+        if (fnEcuacion1(x1)*fnEcuacion1(xm) < 0)
+        {
+            x2=xm;
+        }else{
+            x1=xm;
+        }
+        Er=abs(x2-x1);
+        i=i+1;
+    }
+    cout <<"i= " << i << " Raíz=" << xm << endl;
+    cout << ". . . Hecho";
+    double y;
+    // y=fnEcuacion1(0);
+    // cout << y << endl;
     return 0;
 }
