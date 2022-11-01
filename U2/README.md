@@ -39,7 +39,7 @@ if(renta>=1){
 <b>Salida:</b>
 </center>
 
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/U2/img/renta.png" alt="Rentas">
+<img src="img/renta.png" alt="Rentas">
 <br>  
 
 ---
@@ -90,7 +90,7 @@ int main(int argc, char const *argv[])
 <b>Salida:</b>
 </center>
 <br>
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/U2/img/puntaje.png" alt="Puntaje">
+<img src="img/puntaje.png" alt="Puntaje">
 <br>  
 
 ---
@@ -150,7 +150,7 @@ int main(int argc, char const *argv[])
 <b>Salida:</b>
 </center>
 <br>
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/U2/img/abc.png" alt="abc"> 
+<img src="img/abc.png" alt="abc"> 
 
 ---
 
@@ -245,7 +245,7 @@ int main(int argc, char const *argv[])
 <b>Salida:</b>
 </center>
 <br>
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/U2/img/tablas.png" alt="tablas">
+<img src="img/tablas.png" alt="tablas">
 
 ---
 
@@ -291,7 +291,7 @@ int main(int argc, char const *argv[])
 <b>Salida:</b>
 </center>
 <br>
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/U2/img/while.png" alt="while">
+<img src="img/while.png" alt="while">
 <br>  
 
 ---
@@ -329,4 +329,4 @@ int main(int argc, char const *argv[])
 <b>Salida:</b>
 </center>
 <br>
-<img src="/home/pablo/Documentos/GitHub/UP210752_CPP/U2/img/For.png" alt="for">
+<img src="img/For.png" alt="for">
