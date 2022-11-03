@@ -96,6 +96,110 @@ int main(int argc, char const *argv[])
 ---
 
 <center>
+<b>Salas<b>
+</center>
+<br>
+[Precio de la entrada según una edad ingresada]
+<pre>
+#include <iostream>
+#include <stdio.h>
+using namespace std;
+
+int main()
+{
+    int edad;
+    cout << "ingresa la edad" << endl;
+    cin >> edad;
+
+    if (edad < 4)
+    {
+        cout << "Entrada gratis :)";
+    }
+    else if (edad >= 4 & edad <= 18)
+    {
+        cout << "Precio de la entrada: $5.00";
+    }
+    else if (edad > 18)
+    {
+        cout << "Precio de la entrada: $10.00";
+    }
+    return 0;
+}
+</pre>
+<center>
+<b>Salida:</b>
+</center>
+<br>
+<img src="img/Salas.png" alt="salas"> 
+
+---
+
+<center>
+<b>Pizzeria</b>
+</center>
+<br>
+[Pide los ingredientes de una pizza vegetariana o normal]
+
+
+<pre>
+
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+   string i = "";
+   string r = "";
+   
+   cout << "¿Tu pizza es vegetariana?" << endl;
+   cin >> r;
+
+   if (r == "si")
+   {
+      cout << "La pizza lleva: Pimiento y tofu"<< endl;
+      cout<< "¿De que quieres la pizza?"<<endl;
+      cin >> i;
+      if (i == "pimiento")
+      {
+         cout << "Ha escogido pimiento: Su orden contiene mozarella, tomate y pimiento"<<endl;
+      }
+      else if (i == "tofu")
+      {
+         cout << "Ha escogido tofu: Su orden contiene mozarella, tomate y tofu." << endl;
+      }
+   }
+   else if (r == "no")
+   {
+      cout << "Los ingredientes son: peperonni, jamón y salmon"<<endl;
+      cout<<"¿De que quieres tu pizza?"<<endl;
+      cin >> i;
+      if (i == "peperonni")
+      {
+         cout << "Ha escogido peperonni: Su orden contiene mozarella, tomate y peperonni." << endl;
+      }
+      else if (i == "jamon")
+      {
+         cout << "Ha escogido jamon: Su orden contiene mozarella, tomate y jamon."<<endl;
+      }
+      else if (i == "salmon")
+      {
+         cout << "Ha escogido salmon: Su orden contiene mozarella, tomate y salmon."<<endl;
+      }
+   }
+
+   return 0;
+}
+</pre>
+
+<center>
+<b>Salida:</b>
+</center>
+<br>
+<img src="img/pizza1.png" alt="pizza1"> 
+<img src="img/pizza2.png" alt="pizza2">
+
+---
+
+<center>
 <b>ABC</b>
 </center>
 <br>
