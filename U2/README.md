@@ -198,6 +198,144 @@ int main(int argc, char const *argv[])
 <img src="img/pizza2.png" alt="pizza2">
 
 ---
+<center>
+<b>Temperaturas</b>
+</center>
+<br>
+[Según 6 temperaturas ingresadas saca, promedio, mayor y menor]
+
+
+<pre>
+using namespace std;
+int main(int argc, char const *argv[])
+{
+    int temperatura[5];
+    int s = 0, promedio, mayor = 0, menor = 0;
+
+    cout << "Ingrese 6 temperaturas" << endl;
+    for (int i = 0; i <= 5; i++)
+    {
+        cout << "Ingrese la "<< i <<" temperatura " <<endl;
+        cin >> temperatura[i];
+        s = s + temperatura[i];
+    }
+
+    mayor = temperatura[0];
+    menor = temperatura[0];
+
+    for (int i = 0; i <= 5; i++)
+    {
+        if (temperatura[i] >= mayor)
+        {
+            mayor = temperatura[i];
+        }
+        else if (temperatura[i] < menor)
+        {
+            menor = temperatura[i];
+        }
+    }
+
+    promedio = s / 6;
+    cout << "El promedio de las temperaturas ingresadas es: " << promedio << endl;
+    cout << "El mayor de las temperaturas ingresadas es: " << mayor << endl;
+    cout << "El menor de las temperaturas ingresadas es: " << menor << endl;
+    return 0;
+}
+</pre>
+
+<center>
+<b>Salida:</b>
+</center>
+<br>
+<img src="img/Temperaturas1.png" alt="temp1"> 
+<img src="img/Temperaturas2.png" alt="temp2"> 
+
+
+---
+
+<center>
+<b>Productos</b>
+</center>
+<br>
+[Se ingresan productos hasta que el usuario ingrese un 0, al final muestra el total]
+
+
+<pre>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    double costo;
+    int bandera, total=0, i=1;
+    do
+    {
+        cout << "Precio " << i << ":" <<endl;
+        i=i+1;
+        cin >> costo;
+        total = total + costo;
+        bandera = bandera + 1;
+    } while (costo != 0);
+    cout << "Total: $" << total<<endl;
+    return 0;
+}
+</pre>
+
+<center>
+<b>Salida:</b>
+</center>
+<br>
+<img src="img/productos1.png" alt="productos1"> 
+<img src="img/productos2.png" alt="productos">
+
+---
+
+<center>
+<b>Decimal a binario</b>
+</center>
+<br>
+[El usuario ingresa un número decial y lo convierte a binario]
+
+
+<pre>
+#include <iostream>
+#include <stdio.h>
+#include <string>
+using namespace std;
+int main(){
+    int n;
+    string b="";
+    float c;
+    cout<<"Introduzca un número";
+    cin>>n;
+    if(n>0)    {
+        while (n>0)
+        {
+            if (n%2==0)
+            {
+                b="0"+b;
+            }else{
+                b="1"+b;
+            }
+            n=(int) n/2;
+        }
+    }
+    cout << "El resultado es: " << b << endl;  
+
+
+    return 0;
+}
+</pre>
+
+<center>
+<b>Salida:</b>
+</center>
+<br>
+<img src="img/d2b1.png" alt="d2b1"> 
+<img src="img/d2b2.png" alt="d2b2">
+
+---
 
 <center>
 <b>ABC</b>
