@@ -87,24 +87,32 @@ int main(){
 <br>
 [Calculates cosine function of an angle]
 <pre>
-bool bis(int año){
-    if (año%400==0 || ( año%4==0 && año%100!=0 )){
-        return true;
-    }else{
-        return false;
+long double factorial (int num)
+{
+    long double ft=1.0;
+
+    for (int i=1; i<=num; i++){
+        ft=ft*i;
     }
+    return ft;
 }
 
-int main(){
-    int year;
-    cout << "Ingrese año" << endl;
-    cin >> year;
+double radianes(double grados){
+    return grados * PI/180;
+}
 
-    if (bis(year)==true){
-        cout << "El año es bisiesto" << endl;
-    }else {
-        cout << "El año no es bisiesto" << endl;
+double cos(double x){
+    double resultado=0;
+    for (int i = 0; i <= n; i++)
+    {
+        resultado=resultado+(pow(-1, i)*((pow(x, 2*i))/factorial(2*i)));
     }
+    return resultado;
+}
+int main(){ 
+    double angulo=radianes(60), print;
+    print=cos(angulo);
+    cout <<"Coseno de 60° igual a "<< print<< endl;
     return 0;
 }
 </pre><br>
@@ -281,6 +289,77 @@ char apellidoP[100], apellidoM[100], Nombre[100], rfc[100], year[100];
 
 ---
 
+<center>
+<b>Sort a array</b>
+</center>
+<br>
+[User gives five numbers and the program sort in ascending and descending way]
+<pre>
+void ordenar_asc(int [], int);
+void ordenar_des(int [], int);
+int main()
+{
+ 
+ int xn;
+ int num[9];
+ 
+ for (int i=1;i<=5;i++){
+  cout <<"Ingrese numero : "<<endl;
+  cin>>num[i];
+  
+ }
+ cout <<"Orden ascendente "<<endl;
+ ordenar_asc(num,5);
+ 
+ for (int i=1;i<=5;i++){
+  cout <<num[i]<<endl;
+  
+ }
+ cout <<"Orden descendente "<<endl;
+ ordenar_des(num,5);
+ 
+ for (int i=1;i<=5;i++){
+  cout <<num[i]<<endl;
+  
+ }
+ return 0;
+}
+
+void ordenar_asc(int a[], int n)
+{
+   int aux;
+   for (int i=n; i>=0; i--)
+      for (int j=0; j<=i; j++)
+         if (a[j] > a[j+1])
+          {
+            aux = a[j];
+            a[j]= a[j+1];
+            a[j+1]= aux;
+           }
+}
+
+void ordenar_des(int a[], int n)
+{
+   int aux;
+   for (int i=n; i>=0; i--)
+      for (int j=0; j<=i; j++)
+         if (a[j] < a[j+1])
+          {
+            aux = a[j];
+            a[j]= a[j+1];
+            a[j+1]= aux;
+           }
+}
+</pre><br>
+
+<center>
+<b>Print:</b>
+</center>
+
+<img src="img/vector.png" alt="vector">
+<br>  
+
+---
 <center>
 <b>Recursive function</b>
 </center>
