@@ -1,10 +1,10 @@
 # Unidad 3
 
 <center>
-<b>Bisecciones</b>
+<b>Bisections</b>
 </center>
 <br>
-[Encuentra la raíz de una ecuación]
+[Finds the square of a ecuation]
 <pre>
 double x1 =4.5;
     double x2 = -10;
@@ -36,7 +36,7 @@ double x1 =4.5;
 </pre><br>
 
 <center>
-<b>Salida:</b>
+<b>Print:</b>
 </center>
 
 <img src="img/Bisecciones.png" alt="Bisecciones">
@@ -45,10 +45,161 @@ double x1 =4.5;
 ---
 
 <center>
-<b>Función recursiva</b>
+<b>Leap year</b>
 </center>
 <br>
-[Función recursiva que potencia una base dada por el usuario]
+[Function that calculates if a year is leap or not]
+<pre>
+bool bis(int año){
+    if (año%400==0 || ( año%4==0 && año%100!=0 )){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+int main(){
+    int year;
+    cout << "Ingrese año" << endl;
+    cin >> year;
+
+    if (bis(year)==true){
+        cout << "El año es bisiesto" << endl;
+    }else {
+        cout << "El año no es bisiesto" << endl;
+    }
+    return 0;
+}
+</pre><br>
+
+<center>
+<b>Print:</b>
+</center>
+
+<img src="img/leap.png" alt="leapyear">
+<br>  
+
+---
+
+<center>
+<b>Cosine function</b>
+</center>
+<br>
+[Calculates cosine function of an angle]
+<pre>
+bool bis(int año){
+    if (año%400==0 || ( año%4==0 && año%100!=0 )){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+int main(){
+    int year;
+    cout << "Ingrese año" << endl;
+    cin >> year;
+
+    if (bis(year)==true){
+        cout << "El año es bisiesto" << endl;
+    }else {
+        cout << "El año no es bisiesto" << endl;
+    }
+    return 0;
+}
+</pre><br>
+
+<center>
+<b>Print:</b>
+</center>
+
+<img src="img/cos.png" alt="coseno">
+<br>  
+
+
+---
+<center>
+<b>Standard deviation</b>
+</center>
+<br>
+[Calculates the standard deviation ]
+<pre>
+float xi[5]={600.0, 470.0, 170.0, 430.0, 300.0};
+    float media=394.0;
+    float desviacion=0.0;
+    float resultado=0.0;        
+    for (int i = 0; i <=5; i++)
+    {
+        desviacion=sqrt(pow((xi[i]-media)*1/5, 2));
+        resultado=resultado + desviacion;
+    }
+    cout<<"Desviación="<<resultado<<endl;
+</pre><br>
+
+<center>
+<b>Print:</b>
+</center>
+
+<img src="img/desviacion.png" alt="desviacion">
+<br>  
+
+
+ ---
+
+<center>
+<b>Money change</b>
+</center>
+<br>
+[Takes the best option change to give to a user]
+<pre>
+int pago;
+    cin>>pago;
+    int resultado=0;
+    resultado=pago/1000;
+    pago%=1000;
+    cout<<"Billete de 1000"<< resultado<< endl;
+    resultado=pago/500;
+    pago%=500;
+    cout<<"Billete de 500"<< resultado<< endl;    
+    resultado=pago/200;
+    pago%=200;
+    cout<<"Billete de 200"<< resultado<< endl;
+    resultado=pago/100;
+    pago%=100;
+    cout<<"Billete de 100"<< resultado<< endl;
+    resultado=pago/50;
+    pago%=50;
+    cout<<"Billete de 50"<< resultado<< endl;
+    resultado=pago/20;
+    pago%=20;
+    cout<<"Billete de 20"<< resultado<< endl;
+    resultado=pago/10;
+    pago%=10;
+    cout<<"Billete de 10"<< resultado<< endl;
+    resultado=pago/5;
+    pago%=5; 
+    cout<<"Billete de 5"<< resultado<< endl;    
+    resultado=pago/2;
+    pago%=2;
+    cout<<"Billete de 2"<< resultado<< endl;
+    resultado=pago/1;
+    pago%=1;
+    cout<<"Billete de 1"<< resultado<< endl;</pre><br>
+
+<center>
+<b>Print:</b>
+</center>
+
+<img src="img/monedas.png" alt="monedas">
+<br>  
+
+---
+
+<center>
+<b>Roman numbers</b>
+</center>
+<br>
+[Converts arabig numbers  into roman]
 <pre>
 int x;
     cout<<"ingrese un numero"<<endl;
@@ -82,8 +233,9 @@ int x;
    cout<<endl;
 </pre><br>
 
+
 <center>
-<b>Salida:</b>
+<b>Print:</b>
 </center>
 
 <img src="img/Romanos.png" alt="romanos">
@@ -95,7 +247,7 @@ int x;
 <b>RFC</b>
 </center>
 <br>
-[Dado un nombre y fecha de nacimiento, te uestra el RFC]
+[User enter his name, last names and his birthday and then print his FRC]
 <pre>
 char apellidoP[100], apellidoM[100], Nombre[100], rfc[100], year[100]; 
     cout<<"Ingresa el apellido paterno"<<endl; 
@@ -121,7 +273,7 @@ char apellidoP[100], apellidoM[100], Nombre[100], rfc[100], year[100];
 </pre><br>
 
 <center>
-<b>Salida:</b>
+<b>Print:</b>
 </center>
 
 <img src="img/RFC.png" alt="RFC">
@@ -130,10 +282,10 @@ char apellidoP[100], apellidoM[100], Nombre[100], rfc[100], year[100];
 ---
 
 <center>
-<b>Función recursiva</b>
+<b>Recursive function</b>
 </center>
 <br>
-[Función recursiva que potencia una base dada por el usuario]
+[Recursive function that power a base given for the user]
 <pre>
 long int potencia(int base,int e){
     if(e==0) return 1;
@@ -159,7 +311,7 @@ int main( void ){
 </pre><br>
 
 <center>
-<b>Salida:</b>
+<b>Print:</b>
 </center>
 
 <img src="img/recursiva.png" alt="recursiva">
