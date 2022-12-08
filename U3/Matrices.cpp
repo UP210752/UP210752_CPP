@@ -92,8 +92,9 @@ int main()
 {
     int A[F][C];
     int x[5];
-    //llenarM(A);
-    //imprimirM(A);
-    //transpuesa(A);
-    calificaciones(x);
+    llenarM(A);
+    imprimirM(A);
+    transpuesa(A);
+    diagonal(A);
+    //calificaciones(x);
 }
