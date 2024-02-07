@@ -33,8 +33,12 @@ GitHub</a>
 <center>
 <b>Mis conocimientos</b>
 
- Introducción a Java <br>
+ Java <br>
  HTML/ CSS / PHP / JS <br>
+ MVC <br>
+ SQL Server <br>
+ ORM's Knowledge <br>
+ Entity Framework & LINQ<br>
  Python <br>
  C++( <em>Curso en proceso</em> )<br>
  Algoritmos<br>
