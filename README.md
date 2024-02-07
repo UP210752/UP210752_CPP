@@ -2,7 +2,7 @@
 
 <b><p align="center"> Juan Pablo Ruíz Esparza Salazar </p></b>
 
-<p>Soy un estudiante en la Universidad Politécnica de Aguascalientes me considero capaz de resolver problemas de programación y entender sintaxis de distintos lenguajes de programación. Hasta ahora el campo que más me ha gustado de la programación es el orientado a objetos.</p>
+<p>Soy un estudiante en la Universidad Politécnica de Aguascalientes me considero capaz de resolver problemas de programación y entender sintaxis de distintos lenguajes de programación. Me encuentro actualmente en el constante aprendizaje de tecnologias web.</p>
 
 ---
 <p>
@@ -56,7 +56,7 @@ GitHub</a>
 
 |**Correo**| **Télefono**| 
 |----------|-------------|
-|ruizesparzasalazarjuanpablo1m@gmail.com|+52 4492779826
+|ruizesparzasalazarjuanpablo1m@gmail.com|+52 Censored
 |up210752@alumnos.upa.edu.mx
 
 
